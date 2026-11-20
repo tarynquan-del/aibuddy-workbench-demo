@@ -1421,7 +1421,7 @@ const LEARN={
 const $=s=>document.querySelector(s);
 const $$=s=>[...document.querySelectorAll(s)];
 const PERM='‰';
-let route={v:'duty',id:'an',k:'learn'};
+let route={v:'emp',id:'an',tab:'role'};
 
 function seriesOf(emp){
   if(emp.id==='an') return anDailyRows(30).filter(day=>day.rate!==null).reverse().map(day=>({d:day.date.slice(5),v:day.rate}));
